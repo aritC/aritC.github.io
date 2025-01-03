@@ -76,6 +76,10 @@ nav a:hover {
 .contacts {
   display: flex;
   gap: 1rem;
+  align-items: center;
+}
+.contacts svg {
+  width: 3rem;
 }
 .section {
   margin: 20px 0px;
@@ -186,4 +190,18 @@ footer a {
 }
 footer a:hover {
   color: #ddd;
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    width: 100vw;
+    max-width: none;
+  }
+
+  .container {
+    max-width: 90vw;
+  }
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
 }
