@@ -78,7 +78,7 @@ nav a:hover {
   gap: 1rem;
   align-items: center;
 }
-.contacts svg {
+.contacts .icon {
   width: 3rem;
 }
 .section {
